@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    
+    <link rel="shortcut icon" href="./images/logo.png">
+    <title>Dift</title>
+</head>
+<body>
+    <div class="navigation-container">
+        <!--NECESARIOS ESTOS ICONOS: https://ionic.io/ionicons -->
+        <div class="navigation">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <ul>
+                <li class="list active">
+                    <a href="#home">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">HOME</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#gallery">
+                        <span class="icon">
+                            <ion-icon name="images-outline"></ion-icon>
+                        </span>
+                        <span class="text">GALLERY</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#us">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="text">US</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#social">
+                        <span class="icon">
+                            <ion-icon name="share-social-outline"></ion-icon>
+                        </span>
+                        <span class="text">SOCIAL</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+        </div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="box">
+            <div class="text">
+                <h1>The news and exclusives NFTS</h1>
+                <p>
+                    We are working on our social networks before to put on sale more NFT... For now this are the Dinos whitch we have
+                </p>
+                <h2>New NFT in:</h2>
+                <h3 id="contador"></h3>
+            </div>
+            <a class="imgBx" href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/41062621518477629509518852654913361643176613515317398327387563255747567419393/" target="_blank">
+                <img src="images/NFT4.png">
+            </a>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="title">
+            <h2 class="titleText">Gallery</h2>
+            <p>
+                Here is where you can find all of our NFTS and his names
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <a class="imgBx" href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/41062621518477629509518852654913361643176613515317398327387563252449032536065" target="_blank">
+                        <img src="images/NFT1.png">
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Dino holding balloon</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <a class="imgBx" href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/41062621518477629509518852654913361643176613515317398327387563253548544163841" target="_blank">
+                        <img src="images/NFT2.png">
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Dino handstanding</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <a class="imgBx" href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/41062621518477629509518852654913361643176613515317398327387563254648055791617" target="_blank">
+                        <img src="images/NFT3.png">
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Dino sleeping</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <a class="imgBx" href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/41062621518477629509518852654913361643176613515317398327387563255747567419393/" target="_blank">
+                        <img src="images/NFT4.png">
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Dino with scarf</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="title">
+            <a href="#gallery" class="btn">View All</a>
+        </div>
+    </section>
+
+    <section class="us" id="us">
+        <div class="box">
+            <div class="text">
+                <h2>About Us</h2>
+                <p>
+                    We are a group of pioneering boys in digital art, with our NFTS we want to show that the matic network is also a network where you can be very successful selling NFTS, that's why we started this project.
+                </p>
+            </div>
+            <div class="imgBx">
+                <img src="images/NFT3.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="social" id="social">
+        <div class="text">
+            <h2>Our Social Networks</h2>
+            <p>We are working in our social network, in this moment, some are disable but so early we will have</p>
+        </div>
+        <div class="socialNetworksContainer">
+            <a class="socialNetwork" href="https://www.tiktok.com/@dift_dinos">
+                <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+            <a class="socialNetwork" href="https://twitter.com/DiftDinos">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a class="socialNetwork" href="https://www.instagram.com/dift_dinos/">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="copyrightText">
+            <p>
+                All rigth reserved to Dift ©
+            </p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
